@@ -6,24 +6,57 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-DFRobot_RotaryEncoder	KEYWORD1
-DFRobot_RotaryEncoder_IIC	KEYWORD1
+
+DFRobot_URM13	KEYWORD1
+DFRobot_URM13_RTU	KEYWORD1
+DFRobot_URM13_IIC	KEYWORD1
 
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+
 begin	KEYWORD2
 readBasicInfo	KEYWORD2
-getEncoderValue	KEYWORD2
-setEncoderValue	KEYWORD2
-getGainCoefficient	KEYWORD2
-setGainCoefficient	KEYWORD2
-detectButtonDown	KEYWORD2
+setADDR	KEYWORD2
+getDistanceCm	KEYWORD2
+getInternalTempretureC	KEYWORD2
+setExternalTempretureC	KEYWORD2
+setMeasureMode	KEYWORD2
+passiveMeasurementTRIG	KEYWORD2
+getNoiseLevel	KEYWORD2
+setMeasureSensitivity	KEYWORD2
+setBaudrateMode	KEYWORD2
+setCheckbitStopbit	KEYWORD2
 
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-
+eInternalTemp	LITERAL1
+eExternalTemp	LITERAL1
+eTempCompModeEn	LITERAL1
+eTempCompModeDis	LITERAL1
+eAutoMeasureModeEn	LITERAL1
+eAutoMeasureModeDis	LITERAL1
+eMeasureRangeModeLong	LITERAL1
+eMeasureRangeModeShort	LITERAL1
+eRtuInterface	LITERAL1
+eI2cInterface	LITERAL1
+eTrigInterface	LITERAL1
+eBaudrate_2400	LITERAL1
+eBaudrate_4800	LITERAL1
+eBaudrate_9600	LITERAL1
+eBaudrate_14400	LITERAL1
+eBaudrate_19200	LITERAL1
+eBaudrate_38400	LITERAL1
+eBaudrate_57600	LITERAL1
+eBaudrate_115200	LITERAL1
+eCheckBit_None	LITERAL1
+eCheckBit_Even	LITERAL1
+eCheckBit_Odd	LITERAL1
+eStopBit_0P5	LITERAL1
+eStopBit_1	LITERAL1
+eStopBit_1P5	LITERAL1
+eStopBit_2	LITERAL1
